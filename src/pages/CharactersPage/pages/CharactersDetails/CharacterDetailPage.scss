@@ -1,0 +1,143 @@
+.c-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 156px;
+    position: relative;
+    top: 156px;
+     
+}
+.icon-arrow-left{
+    display: flex;
+    font-size: 42px;
+    align-items: center;
+    position: absolute;
+    top: 38px;
+    margin-left: 156px;
+    color: white;
+    cursor: pointer;
+    p{
+        font-size: 24px;
+        font-family: 'lato';
+        margin: 0;
+        margin-left: 16px;
+    }
+}
+
+
+.character{   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__img{
+        object-fit: contain;
+        width: 100%;
+        height: 320px;
+    }
+    &__text{
+       font-size: 36px;
+    }
+
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px; 
+        font-family: 'lato';  
+    }
+
+    &__house{
+        width: 248px;
+
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 230px;
+        }   
+    }
+    &__allegiances{
+        width: 248px;
+        height: 230px;  
+    }
+    &__appearances{
+        
+    }
+    &__father{
+        width: 248px;
+        height: 230px;
+    }
+    &__siblings{
+        width: 248px;
+        height: 230px;
+    }
+    &__titles{
+       
+        
+    }
+    
+
+}
+
+
+.scroll{
+    width: 248px;
+    height: 230px;
+    // overflow: hidden;
+    // overflow-y: scroll;
+    & .simplebar-scrollbar:before{
+        background-color: white;
+        left: 0;
+        right: 0;
+
+    }  
+    & .simplebar-scrollbar.simplebar-visible:before{
+        opacity: 100%;
+    }
+    & .simplebar-vertical.simplebar-track{
+        background-color: #443d3d;
+        width: 4px;
+    }
+    & .simplebar-content{
+        max-height: 100%;
+    }
+        
+}
+
+
+
+
+
+
+
+
+
+
+// .scroll::-webkit-scrollbar {
+//         width: 4px;
+        
+       
+        
+// }
+      
+//       /* Track */
+// .scroll::-webkit-scrollbar-track {
+//         background: #443d3d; 
+// }
+       
+//       /* Handle */
+// .scroll::-webkit-scrollbar-thumb {
+//         background-color: white;
+       
+//         height: 1%; 
+//         border-radius: 10px;
+// }

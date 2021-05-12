@@ -1,0 +1,37 @@
+@font-face{
+  font-family: 'Got';
+  src: url('./assets/fonts/Game\ of\ Thrones.ttf');
+}
+
+@font-face{
+  font-family: 'lato';
+  src: url('./assets/fonts/Lato-Light.ttf');
+}
+
+
+
+@import '~bootstrap/scss/bootstrap-grid';
+
+@import './assets/icons/variables.scss';
+@import './assets/icons/style.scss';
+
+
+@import './assets/icomoon-v1.0/variables.scss';
+@import './assets/icomoon-v1.0/style.scss';
+
+body{
+  font-family: 'Got';
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  
+
+}
+
+img{
+  width: 100%;
+}
+// overflow: hidden;
+// overflow-y: scroll;

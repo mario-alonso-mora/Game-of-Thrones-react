@@ -1,0 +1,32 @@
+.c-home{
+    
+
+    h1{
+        font-size: 176px;
+        
+        text-align: center;
+    }
+
+    
+    &__img{
+              
+        background-image: url("https://cdn.zeplin.io/5e1c73baff24c3be01ba9cca/assets/210f33c2-76eb-474c-a297-6774dc1dd03c.svg");
+        background-color:black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+}
+
+
+
+
+

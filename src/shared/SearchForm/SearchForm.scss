@@ -1,0 +1,28 @@
+
+ .search{
+   width: 700px;
+   margin-left: 156px;
+   top: 45px;
+   position: absolute;
+   background: no-repeat;
+   border: none;
+   color: white;
+   font-size: 29px;
+   display: flex;
+   border-bottom: solid white 2px;
+   
+
+
+   &__input{
+    width: 700px;
+    background: no-repeat;
+    border: none;
+    color: white;
+    font-size: 29px;
+    padding-left: 10px;
+   }
+    
+ }
+.icon-search{
+  color: rgba(255, 255, 255, 0.87);
+}

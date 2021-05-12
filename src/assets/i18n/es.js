@@ -1,0 +1,21 @@
+export const es = {
+    'welcome': 'Bienvenido a Juego de Tronos',
+    'hello': 'hola',
+    'Characters': 'Personajes',
+    'Houses': 'Casas',
+    'Chronology': 'Cronologia',
+    'Search': 'Buscar',
+    'Houses': 'Casas',
+    'Alliances': 'Alianzas',
+    'Appearances': 'Apariciones',
+    'Father': 'Padre',
+    'Decendents': 'Descendientes',
+    'Titles': 'Titulos',
+    'Return': 'Volver',
+    'Words': 'Lema',
+    'Seat': 'Sede',
+    'Region': 'Region',
+    'Religions': 'Religiones',
+    'Foundations': 'Fundacion',
+    
+}

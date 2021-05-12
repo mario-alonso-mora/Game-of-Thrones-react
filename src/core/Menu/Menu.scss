@@ -1,0 +1,21 @@
+.c-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 156px;
+    position: absolute;
+    top: 22px;
+
+    &__house{
+        width: 52px ;
+        margin-top: 3px;
+    }
+
+    &__img{
+        width: 64px;
+        margin-left: 29px;
+        cursor: pointer;
+        
+    }
+}
+

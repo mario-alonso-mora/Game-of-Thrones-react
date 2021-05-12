@@ -1,0 +1,27 @@
+.c-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140px;
+    font-size: 36px;
+    position: absolute;
+    bottom: 6;
+    bottom: 15px;
+    padding: 0 156px;
+    
+
+    &__link{
+        text-decoration: none;
+        color: white; 
+        &--active{
+            text-decoration: underline;
+        } 
+    }
+    &__link:hover{
+        text-decoration: underline;
+
+    }
+
+}
